@@ -22,3 +22,15 @@
     width: 80%;
     margin: 40px;
 }
+
+.listas {
+    list-style: none;
+    float: left;
+    
+}
+
+.lista {
+
+    float: left;
+    background-color: #434343;
+}
