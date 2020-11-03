@@ -10,6 +10,7 @@
     font-size: x-large;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: square;
 }
 
 .texto{
