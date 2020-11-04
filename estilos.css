@@ -7,6 +7,9 @@
 
 }
 
+body{
+    background-color: blueviolet;
+}
 
 .titulo{
     text-align: center;
@@ -18,13 +21,12 @@
     background-color: #f47920; 
 }
 
-.navegacion ul{
+.navegacion {
     list-style: none;
 }
 
 .menuprincipal > li {
 
-    position: relative;
     display: inline-block;
 } 
 
