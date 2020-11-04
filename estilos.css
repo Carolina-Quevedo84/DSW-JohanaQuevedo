@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -7,9 +7,6 @@
 
 }
 
-body{
-    background-color: blueviolet;
-}
 
 .titulo{
     text-align: center;
@@ -19,32 +16,51 @@ body{
 .navegacion{
     width: 1000px;
     background-color: #f47920; 
-}
-
-.navegacion {
+    margin: 30px auto;
+} 
+ 
+.navegacion ul{
     list-style: none;
 }
 
-.menuprincipal > li {
-
+.menu > li {
     display: inline-block;
 } 
 
-.menuprincipal > li >a{
+.menu > li >a{
     display: block;
-    padding: 20px;
-    background-color: #f47920;
-    text-align: center;
-    width: 100%;
+    padding: 20px 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    font-size: 22px;
+    justify-content: center;
+
     }
-.menuprincipal li a:hover{
+.menu li a:hover{
     color: aqua;
     transition: all, .3s;
 
 }
 
+.submenu{
+    position: absolute;
+    background-color: #333333;
+    width: 20%;
+    display: none;
+       
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: darksalmon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+} 
+
+.menu li:hover .submenu{
+    display: block;
+}
 
 .texto{
     text-align: center;
@@ -54,5 +70,8 @@ body{
 .tabla {
     width: 80%;
     margin: 40px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
 }
 
