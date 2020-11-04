@@ -11,6 +11,10 @@
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style: none;
+    float: left;
+    display: none;
+    position: absolute;
+    
 }
 
 .texto{
@@ -32,5 +36,5 @@
 .lista {
 
     float: left;
-    background-color: #434343;
+   
 }
