@@ -11,12 +11,14 @@
 .titulo{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
 }
 
 .navegacion{
     width: 1000px;
-    background-color: #f47920; 
+    background-color: #005883; 
     margin: 30px auto;
+    text-align: center;
 } 
  
 .navegacion ul{
@@ -25,6 +27,8 @@
 
 .menu > li {
     display: inline-block;
+  
+
 } 
 
 .menu > li >a{
@@ -34,17 +38,18 @@
     text-decoration: none;
     font-size: 22px;
     justify-content: center;
+    color: white;
 
     }
 .menu li a:hover{
-    color: aqua;
+    color:  #808080;
     transition: all, .3s;
 
 }
 
 .submenu{
     position: absolute;
-    background-color: #333333;
+    background-color: #F0B429;
     width: 20%;
     display: none;
        
@@ -53,7 +58,7 @@
 .submenu li a{
     display: block;
     padding: 15px;
-    color: darksalmon;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 } 
