@@ -7,6 +7,13 @@
 
 }
 
+.titulo1{
+
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;    
+    color: #005883;
+}
 
 .titulo{
     text-align: center;
@@ -73,10 +80,12 @@
 }
 
 .tabla {
-    width: 80%;
+    width: 90%;
     margin: 40px;
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
 }
+
+
 
